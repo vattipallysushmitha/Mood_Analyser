@@ -13,7 +13,8 @@ import org.junit.jupiter.api.Test;
             //TC 1.1 "I am in sad mood"
         MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
         String mood = moodAnalyzer.moodCheck("I am in sad mood");
-        Assertions.assertEquals(mood, "SAD");
+            System.out.println(mood);
+            Assertions.assertEquals(mood, "SAD");
         }
     }
 
