@@ -8,15 +8,27 @@ package com.bridzelab.MoodAnalyzer;
 
 public class MoodAnalyzer
 {
-    public String moodCheck(String message)
+    private String message;
+
+    //Default Constructor
+    public MoodAnalyzer()
+    {
+    }
+
+    //Parameterized Constructor
+    public MoodAnalyzer(String message)
+    {
+        this.message = message;
+    }
+
+    public String analyseMood()
     {
         if (message.contains("sad"))
             return "SAD";
-        else if (message.contains("happy"))
-            return "HAPPY";
         else
-            return null;
+            return "HAPPY";
     }
-
-
 }
+
+
+
