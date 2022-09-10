@@ -1,8 +1,9 @@
 /*
- * Purpose==>Given a Message, abilit to analyse and respond Happy or Sad Mood
- *         - Create MoodAnalyser Object - Call analyseMood function with message as parameter and return Happy or Sad Mood
+ * Purpose==>Given “I am in Sad Mood” message Should Return SAD
+            -analyseMood method can just return
+            -SAD to pass this Test Case (TC)
  * @Author==>Sushmitha
- * @Since==>09-10-2022
+ * @Since==>10-10-2022
  */
 package com.bridzelab.MoodAnalyzer;
 
@@ -16,15 +17,6 @@ public class MoodAnalyzer
             return "HAPPY";
         else
             return null;
-    }
-    public static void main(String args[])
-    {
-        System.out.println("********************************");
-        System.out.println("Welcome to MoodAnalyzer Program");
-        System.out.println("********************************");
-
-        MoodAnalyzer mood = new MoodAnalyzer();
-        System.out.println(mood.moodCheck("i am in happy mood"));
     }
 
 
