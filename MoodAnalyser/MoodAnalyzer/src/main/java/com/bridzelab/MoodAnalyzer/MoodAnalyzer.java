@@ -1,7 +1,6 @@
 /*
- * Purpose==>Given “I am in Sad Mood” message Should Return SAD
-            -analyseMood method can just return
-            -SAD to pass this Test Case (TC)
+ * Purpose==>Given “I am in Any Mood” message Should Return HAPPY
+            -To make the Test case pass analyseMood method need to check for Sad else return HAPPY
  * @Author==>Sushmitha
  * @Since==>10-10-2022
  */
