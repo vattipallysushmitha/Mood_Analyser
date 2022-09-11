@@ -1,6 +1,6 @@
 /*
- * Purpose==>Given “I am in Sad Mood” message in Constructor Should Return SAD
-            -To pass this Test Case when calling analyseMood method with no params should return SAD
+ * Purpose==>Given “I am in HAPPY Mood” message in Constructor Should Return HAPPY
+            -To pass this Test Case when calling analyseMood method with no params should return HAPPY
  * @Author==>Sushmitha
  * @Since==>11-10-2022
  */
@@ -27,7 +27,7 @@ public class MoodAnalyzer
         if (message.contains("sad"))
             return "SAD";
         else if(message.contains("happy"))
-            return "HAPPY";
+            return "SAD";
         else return null;
     }
 }
