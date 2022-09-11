@@ -1,6 +1,6 @@
 /*
- * Purpose==>Handle Exception if User Provides Invalid Mood
-            - Like NULL
+ * Purpose==>Given Null Mood Should Return Happy
+ *          -To make this Test Case pass Handle NULL Scenario using try catch and return Happy
  * @Author==>Sushmitha
  * @Since==>11-10-2022
  */
@@ -25,13 +25,14 @@ public class MoodAnalyzer {
             if (message.contains("sad"))
                 return "SAD";
             else if(message.contains("happy"))
-                return "SAD";
+                return "HAPPY";
+            
             else return null;
         } catch (Exception e)
         {
+            return "HAPPY";
 
         }
-            return "HAPPY";
 
     }
 }
