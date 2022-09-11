@@ -22,9 +22,18 @@ public class TestMoodAnalyzer
    {
         //Tc1.2 Refactor
        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("This is a happy message");
-      String mood1 = moodAnalyzer.analyseMood();
-      System.out.println(mood1);
-      Assertions.assertEquals(mood1,"SAD");
+       String mood1 = moodAnalyzer.analyseMood();
+       System.out.println(mood1);
+       Assertions.assertEquals(mood1,"SAD");
+
+    }
+    @Test
+    public void whenMoodIsNull()
+    { //tc 2.1
+        MoodAnalyzer moodAnalyzer = new MoodAnalyzer(null);
+        String mood2 = moodAnalyzer.analyseMood();
+        Assertions.assertEquals(mood2,"NULL");
 
     }
 }
+
