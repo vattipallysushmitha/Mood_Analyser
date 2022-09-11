@@ -24,7 +24,7 @@ public class TestMoodAnalyzer
        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("This is a happy message");
       String mood1 = moodAnalyzer.analyseMood();
       System.out.println(mood1);
-      Assertions.assertEquals(mood1,"HAPPY");
+      Assertions.assertEquals(mood1,"SAD");
 
     }
 }
