@@ -1,9 +1,10 @@
 /*
- * Purpose==>Given “I am in Any Mood” message Should Return HAPPY
-            -To make the Test case pass analyseMood method need to check for Sad else return HAPPY
+ * Purpose==>Given “I am in Sad Mood” message in Constructor Should Return SAD
+            -To pass this Test Case when calling analyseMood method with no params should return SAD
  * @Author==>Sushmitha
- * @Since==>10-10-2022
+ * @Since==>11-10-2022
  */
+
 package com.bridzelab.MoodAnalyzer;
 
 public class MoodAnalyzer
